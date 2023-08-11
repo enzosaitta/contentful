@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.title-portafolio {
+  display: grid;
+  place-items: center;
+}
+.title-principal {
+  font-weight: 500;
+  font-size: 38px;
+  margin: 40px 0 0 0;
+  text-align: center;
+}
+.txt-principal {
+  margin: 7px 0 0 0;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* card content */
+.secction {
+  margin-top: 20px;
+  padding: 40px;
+  display: grid;
+  gap: 40px;
+}
+@media (min-width: 960px) {
+  .secction {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+.secction-content {
+  border-radius: 4px;
+  border: 2px solid;
+  box-shadow: 10px 10px 10px rgb(197, 197, 197);
+}
+
+.img-card {
+  width: 100%;
+}
+
+.title-card {
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.text-card {
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.link {
+  display: block;
+  text-align: right;
+  margin-right: 20px;
+  font-weight: 700;
+  font-size: 18px;
+}
